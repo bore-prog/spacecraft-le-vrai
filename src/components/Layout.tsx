@@ -1,16 +1,17 @@
-import { SafeAreaView, StyleSheet, StatusBar } from 'react-native'
+import { SafeAreaView, StyleSheet, StatusBar, View } from 'react-native'
 import React from 'react'
-import { FontAwesome5 } from '@expo/vector-icons';
+import { Header } from "../components/Header";
 
 type Props = { children : React.ReactNode}
 
 export function Layout(props: Props) {
-    console.log(props)
   return (
-    <SafeAreaView style={styles.container}>
-        <FontAwesome5 name="space-shuttle" size={24} color="black" />
-        { props.children }
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Header title="SpaceCraft"/>
+      <SafeAreaView>
+          { props.children }
+      </SafeAreaView>
+    </View>
   )
 }
 

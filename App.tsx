@@ -5,20 +5,21 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import LoginScreen from './src/screens/LoginScreen';
 import { TermsScreen } from "./src/screens/TermsScreen";
 import { StarshipFeedScreen } from "./src/screens/StarshipFeedScreen";
-import { Header } from "./src/components/Header";
-import { QueryComponent } from "./src/components/QueryComponent";
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+
+const queryClient = new QueryClient()
 
 const App = () => {
   return (
-    <PaperProvider >
-        <View style={styles.container}>
-            <Header title="SpaceCraft"/>
-            <LoginScreen />
-            {/* <TermsScreen /> */}
-            {/* <StarshipFeedScreen /> */}
-            {/* <QueryComponent /> */}
-        </View>
-    </PaperProvider>
+    <QueryClientProvider client={queryClient}>
+      <PaperProvider >
+          <View style={styles.container}>
+              {/* <LoginScreen /> */}
+              {/* <TermsScreen /> */}
+              <StarshipFeedScreen />
+          </View>
+      </PaperProvider>
+    </QueryClientProvider>
   );
 };
 
