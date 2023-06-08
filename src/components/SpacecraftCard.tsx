@@ -1,8 +1,6 @@
 import React from "react";
-import { SafeAreaView, FlatList, StyleSheet, StatusBar, View } from "react-native";
+import {StyleSheet, View } from "react-native";
 import { Text, Card } from "react-native-paper";
-import { DATA } from "../../api/data3";
-import { Layout } from "../components/Layout"
 
 type SpacecraftProps = {title: string, model: string, crew: string, hyperdrive_rating: string, cost_in_credits: string}
 
