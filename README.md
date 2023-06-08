@@ -2,8 +2,8 @@
 A React Native application build with `expo`. Created during my bootcamp https://davidl.fr/bootcamp
 
 ## Getting started
-```npm install```
-```npm start```
+> ```npm install```  
+> ```npm start```
 
 ## Setup
 
