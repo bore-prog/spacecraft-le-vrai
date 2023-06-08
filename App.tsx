@@ -13,9 +13,9 @@ const App = () => {
     <PaperProvider >
         <View style={styles.container}>
             <Header title="SpaceCraft"/>
-            {/* <LoginScreen />
-            <TermsScreen /> */}
-            <StarshipFeedScreen />
+            <LoginScreen />
+            {/* <TermsScreen /> */}
+            {/* <StarshipFeedScreen /> */}
             {/* <QueryComponent /> */}
         </View>
     </PaperProvider>

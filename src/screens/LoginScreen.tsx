@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import * as React from 'react';
 import { Text, TextInput, Button } from 'react-native-paper';
+import { Layout } from '../components/Layout';
 
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <React.Fragment>
+    <Layout>
       <View style={styles.inputs}>
         <TextInput
           label="Email"
@@ -38,7 +39,7 @@ export default function App() {
       </Button>
 
       <Text style={styles.terms}>Read Terms and conditions</Text>
-    </React.Fragment>
+    </Layout>
   );
 }
 
