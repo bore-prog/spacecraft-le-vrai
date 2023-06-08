@@ -1,6 +1,10 @@
 # spacecraft-le-vrai
 A React Native application build with `expo`. Created during my bootcamp https://davidl.fr/bootcamp
 
+## Getting started
+```npm install```
+```npm start```
+
 ## Setup
 
 https://davidl.fr/workshop/challenges/setup

@@ -14,7 +14,8 @@ const App = () => {
             <Header title="SpaceCraft"/>
             {/* <LoginScreen />
             <TermsScreen /> */}
-            <StarshipFeedScreen />
+            {/* <StarshipFeedScreen /> */}
+            
         </View>
     </PaperProvider>
   );
