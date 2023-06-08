@@ -6,6 +6,7 @@ import LoginScreen from './src/screens/LoginScreen';
 import { TermsScreen } from "./src/screens/TermsScreen";
 import { StarshipFeedScreen } from "./src/screens/StarshipFeedScreen";
 import { Header } from "./src/components/Header";
+import { QueryComponent } from "./src/components/QueryComponent";
 
 const App = () => {
   return (
@@ -14,8 +15,8 @@ const App = () => {
             <Header title="SpaceCraft"/>
             {/* <LoginScreen />
             <TermsScreen /> */}
-            {/* <StarshipFeedScreen /> */}
-            
+            <StarshipFeedScreen />
+            {/* <QueryComponent /> */}
         </View>
     </PaperProvider>
   );
