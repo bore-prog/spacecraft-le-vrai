@@ -6,10 +6,6 @@ import { Layout } from '../components/Layout';
 
 export default function App() {
 
-  const [mail, setMail] = React.useState("");
-  const [password, setPassword] = React.useState("");
-  const [hidePassword, setHide] = React.useState(true);
-
   function togglePassword() {
     setHide(!hidePassword)
   }
