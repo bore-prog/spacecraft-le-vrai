@@ -1,15 +1,19 @@
 # spacecraft-le-vrai
+
 A React Native application build with `expo`. Created during my bootcamp https://davidl.fr/bootcamp
 
 ## Getting started
-> ```npm install```  
-> ```npm start```
+```
+npm install  
+npm start
+```
 
 ## Setup
 
 https://davidl.fr/workshop/challenges/setup
 
 ## Foundation
+
 1. [Code from the cloud with Expo Snack](https://davidl.fr/workshop/challenges/foundation-01)
 
 2. [Code on your laptop with VSCode](https://davidl.fr/workshop/challenges/foundation-02)
@@ -21,6 +25,7 @@ https://davidl.fr/workshop/challenges/setup
 5. [Folder structure](https://davidl.fr/workshop/challenges/foundation-05)
 
 ## Data Layer
+
 1. How to debug with React Native
 
 2. Data fetching using @tanstack/react-query
