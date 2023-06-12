@@ -11,7 +11,6 @@ export const Offline = () => {
       {(!isConnected) ?<Text>
         Vous êtes hors ligne, reconnexion en cours....
         <ActivityIndicator animating={true} color={"red"}/>
-        {/* Check `isConnected` status and render a message with `ActivityIndicator` */}
       </Text> : <Text></Text>}
     </View>
   );
