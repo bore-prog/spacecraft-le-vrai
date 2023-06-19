@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-      "jsx": "react"
-},
-  "extends": "expo/tsconfig.base"
+    "jsx": "react"
+  },
+  "extends": [
+    "expo/tsconfig.base",
+    "eslint-config-react-native-wcandillon/tsconfig.base"
+  ]
 }
