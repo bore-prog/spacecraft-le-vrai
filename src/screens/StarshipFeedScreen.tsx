@@ -1,6 +1,6 @@
 import React from "react";
 import { FlatList, Text, View } from "react-native";
-import { DATA } from "../../api/data3";
+// import { DATA } from "../../api/data3";
 import { Layout } from "../components/Layout"
 import { SpacecraftCard } from "../components/SpacecraftCard"
 import { useStarships } from "../hooks/useStarships";

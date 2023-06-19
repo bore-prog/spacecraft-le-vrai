@@ -2,9 +2,17 @@ import React from "react";
 import {StyleSheet, View } from "react-native";
 import { Text, Card } from "react-native-paper";
 
-type SpacecraftProps = {title: string, model: string, crew: string, hyperdrive_rating: string, cost_in_credits: string}
+// type SpacecraftProps = {title: string, model: string, crew: string, hyperdrive_rating: string, cost_in_credits: string}
 
-export function SpacecraftCard({title, model, crew, hyperdrive_rating, cost_in_credits}: SpacecraftProps) {
+interface SpacecraftCardProps {
+  title: string;
+  model: string;
+  crew: string;
+  hyperdrive_rating: string;
+  cost_in_credits: string;
+}
+
+export function SpacecraftCard({title, model, crew, hyperdrive_rating, cost_in_credits}: SpacecraftCardProps) {
   return (
     <View style={styles.item}>
       <Card>
