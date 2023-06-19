@@ -4,10 +4,18 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'react-native-wcandillon',
-    'standard-with-typescript',
-    'plugin:react/recommended'
+    "react-native-wcandillon",
+    "standard-with-typescript",
+    "plugin:react/recommended",
   ],
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        "rootPathPrefix": "~",
+        "rootPathSuffix": "src"
+      }
+    }
+  },
   overrides: [
     {
       env: {
