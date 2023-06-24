@@ -1,0 +1,31 @@
+npm WARN idealTree Removing dependencies.react-native-safe-area-context in favor of devDependencies.react-native-safe-area-context
+npm WARN ERESOLVE overriding peer dependency
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: eslint-import-resolver-babel-plugin-root-import@1.1.1
+npm ERR! Found: babel-plugin-root-import@6.6.0
+npm ERR! node_modules/babel-plugin-root-import
+npm ERR!   dev babel-plugin-root-import@"^6.6.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer babel-plugin-root-import@"^5.1.0" from eslint-import-resolver-babel-plugin-root-import@1.1.1
+npm ERR! node_modules/eslint-import-resolver-babel-plugin-root-import
+npm ERR!   dev eslint-import-resolver-babel-plugin-root-import@"^1.1.1" from the root project
+npm ERR! 
+npm ERR! Conflicting peer dependency: babel-plugin-root-import@5.1.0
+npm ERR! node_modules/babel-plugin-root-import
+npm ERR!   peer babel-plugin-root-import@"^5.1.0" from eslint-import-resolver-babel-plugin-root-import@1.1.1
+npm ERR!   node_modules/eslint-import-resolver-babel-plugin-root-import
+npm ERR!     dev eslint-import-resolver-babel-plugin-root-import@"^1.1.1" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! C:\Users\auror\AppData\Local\npm-cache\_logs\2023-06-24T15_00_59_216Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\auror\AppData\Local\npm-cache\_logs\2023-06-24T15_00_59_216Z-debug-0.log
